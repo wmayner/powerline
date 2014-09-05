@@ -44,6 +44,9 @@
 			},
       {
         "function": "powerline.custom_segments.common.full_path",
+        "args": {
+          "use_path_separator": true
+        },
         "priority": 50
       },
       {
