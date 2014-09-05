@@ -48,10 +48,7 @@ class FullPathSegment(Segment):
     def __call__(self, pl, segment_info, dir_shorten_len=None, dir_limit_depth=None, use_path_separator=False, ellipsis=' … ', **kwargs):
         cwd = self.get_shortened_path(pl, segment_info, **kwargs)
         cwd_split = cwd.split(os.sep)
-
-        # Cut out current directory
-        cwd_split = cwd_split[:-1]
-
+        cwd_split = cwd_split
         cwd_split_len = len(cwd_split)
         cwd = [i[0:dir_shorten_len] if dir_shorten_len and i else i for i in cwd_split[:-1]] + [cwd_split[-1]]
         if dir_limit_depth and cwd_split_len > dir_limit_depth + 1:
