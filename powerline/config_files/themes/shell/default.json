@@ -43,7 +43,7 @@
 				"priority": 10
 			},
       {
-        "function": "custom_segments.common.full_path",
+        "function": "powerline.custom_segments.common.full_path",
         "priority": 150
       },
       {
