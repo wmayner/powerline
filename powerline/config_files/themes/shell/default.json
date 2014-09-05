@@ -44,7 +44,7 @@
 			},
       {
         "function": "powerline.custom_segments.common.full_path",
-        "priority": 150
+        "priority": 50
       },
       {
 				"function": "powerline.segments.common.fuzzy_time",
