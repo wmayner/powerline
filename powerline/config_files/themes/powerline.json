@@ -57,7 +57,7 @@
 			"before": "✉ "
 		},
 		"powerline.segments.common.virtualenv": {
-			"before": "ⓔ  "
+			"before": ""
 		},
 		"powerline.segments.common.hostname": {
 			"before": " "

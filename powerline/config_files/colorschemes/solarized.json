@@ -11,7 +11,7 @@
 		"email_alert_gradient":      { "fg": "white", "bg": "yellow_orange_red", "attr": ["bold"] },
 		"user":                      { "fg": "solarized:base3", "bg": "solarized:blue", "attr": ["bold"] },
 		"superuser":                 { "fg": "solarized:base3", "bg": "solarized:red", "attr": ["bold"] },
-		"virtualenv":                { "fg": "solarized:base3", "bg": "solarized:blue", "attr": [] },
+		"virtualenv":                { "fg": "solarized:base03", "bg": "solarized:blue", "attr": [] },
 		"branch":                    { "fg": "solarized:base1", "bg": "solarized:base02", "attr": [] },
 		"branch_dirty":              { "fg": "solarized:base03", "bg": "solarized:yellow", "attr": [] },
 		"branch_clean":              { "fg": "solarized:base03", "bg": "solarized:green", "attr": [] },
