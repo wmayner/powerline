@@ -2,8 +2,8 @@
 	"name": "Solarized dark for shell",
 	"groups": {
 		"jobnum":             { "fg": "solarized:base3", "bg": "solarized:base01", "attr": [] },
-		"exit_fail":          { "fg": "solarized:base3", "bg": "solarized:orange", "attr": [] },
-		"exit_success":       { "fg": "solarized:base3", "bg": "solarized:green", "attr": [] },
+		"exit_fail":          { "fg": "solarized:base03", "bg": "solarized:orange", "attr": [] },
+		"exit_success":       { "fg": "solarized:base03", "bg": "solarized:green", "attr": [] },
 		"mode":               { "fg": "solarized:base3", "bg": "solarized:base01", "attr": ["bold"] }
 	},
 	"mode_translations": {
